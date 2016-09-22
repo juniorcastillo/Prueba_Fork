@@ -40,6 +40,9 @@
 				case "multiplicacion":
 					echo "Resultado= " . ($elemento1 * $elemento2);
 					break;
+				case "divicion":
+					echo "Resultado= " . ($elemento1 / $elemento2);
+					break;
 				default:
 				echo "Lo sentimos la operacion que a elegido no esta en funcion";
             }
