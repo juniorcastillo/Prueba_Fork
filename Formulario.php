@@ -16,7 +16,7 @@
 		  <option value="suma">Suma</option>
 		  <option value="resta">Resta</option>
 		  <option value="multiplicacion">Multiplicacion</option>
-		  <option value="divicion">Division</option>
+		  <option value="division">Division</option>
 
 		</select>
 		<br><br>
@@ -48,11 +48,11 @@
 				case "multiplicacion":
 					echo "Resultado= " . ($elemento1 * $elemento2);
 					break;
-				case "divicion":
+				case "division":
 					echo "Resultado= " . ($elemento1 / $elemento2);
 					break;
 				default:
-				echo "Lo sentimos la operacion que a elegido no esta en funcion";
+				echo "Lo sentimos, la operacion que ha elegido no está en funcion";
             }
 			 
 		 }
